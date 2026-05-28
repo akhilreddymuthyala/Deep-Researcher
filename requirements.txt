@@ -1,0 +1,19 @@
+# MCP
+mcp
+
+# HTTP requests
+httpx
+requests
+
+# Environment variables
+python-dotenv
+
+# OpenRouter / OpenAI-compatible client
+openai
+
+# HTML parsing (Phase 2 - scraper)
+beautifulsoup4
+lxml
+
+# Async support
+asyncio
