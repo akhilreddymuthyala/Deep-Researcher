@@ -17,3 +17,5 @@ lxml
 
 # Async support
 asyncio
+
+tavily-python

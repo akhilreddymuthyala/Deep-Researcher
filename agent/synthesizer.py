@@ -37,6 +37,9 @@ async def synthesize_report(query: str, findings_dir: str = "findings") -> str:
                     "You are a research analyst. "
                     "Given raw research findings, write a clean, structured, "
                     "insightful report. Include key findings, trends, and conclusions."
+                    "Write ONLY from the provided findings. "
+                    "If information is not in findings, say 'not found in sources'. "
+                    "Never invent statistics, company names, or quotes."
                 )
             },
             {
