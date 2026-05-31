@@ -1,1 +1,7 @@
-Specification page content extracted from modelcontextprotocol.io/specification/2025-03-26 (see above). Includes overview, key details, base protocol, features, security, implementation guidelines.
+Search results for Model Context Protocol architecture client server:
+- Architecture overview (modelcontextprotocol.io/docs/learn/architecture): describes client-server model, MCP host, client, server, JSON-RPC data layer.
+- Medium article summarizing three components: host, client, server.
+- Databricks blog detailing core MCP architecture and client-server model.
+- Zuplo guide explaining MCP server role and capabilities.
+- CodiLime blog explaining JSON-RPC based standard, tools/resources/prompts, practical examples.
+These sources collectively outline the MCP architecture: an AI host runs an MCP client that connects via JSON-RPC to one or more MCP servers which expose tools, resources, prompts, and notifications. The protocol manages lifecycle, authentication, and stateful sessions.

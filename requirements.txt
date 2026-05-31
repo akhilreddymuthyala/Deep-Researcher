@@ -19,3 +19,4 @@ lxml
 asyncio
 
 tavily-python
+python-docx
